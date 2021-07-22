@@ -1,0 +1,18 @@
+.darkGreenLine {
+    width: 100%;
+    height: 2.5rem;
+    background-color: #14cba8;
+}
+.headerContainer {
+    background-color: #64ffda;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0 2rem 0;
+}
+.author {
+    color: #000000;
+    text-decoration: none;
+}
+.author:hover {
+    color: #2bbd7e;
+}

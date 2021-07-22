@@ -13,12 +13,14 @@ const App = () => {
           <Router>
             <Header/>
             <div className="container">
-              <Switch>
-                <Route exact path="/" component={Body}/>
-                <Route path="/css" component={CssDrawings}/>
-                <Route path="/react-native" component={ReactNative}/>
-                <Route path="/web-projects" component={WebProjects}/>
-              </Switch>
+              <div className="row">
+                <Switch>
+                  <Route exact path="/" component={Body}/>
+                  <Route path="/css" component={CssDrawings}/>
+                  <Route path="/react-native" component={ReactNative}/>
+                  <Route path="/web-projects" component={WebProjects}/>
+                </Switch>
+              </div>
               <Footer/>
             </div>
           </Router>

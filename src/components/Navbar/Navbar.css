@@ -1,0 +1,15 @@
+.headerNavbar {
+    display: flex;
+    list-style: none;
+}
+.navLi {
+    margin-right: 3rem;
+}
+.navLink {
+    color: black;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+.navLink:hover {
+    color: #2bbd7e;
+}
