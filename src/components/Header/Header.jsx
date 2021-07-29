@@ -8,10 +8,12 @@ const Header = () => {
         <>
             <div className="darkGreenLine"></div>
             <div  className="headerContainer">
-                <Link className="author" to="/">
-                 <h1>Kenji Arakaki</h1>
-                </Link>
-                <Navbar/> 
+                <div className="headerContent container">
+                    <Link className="author" to="/">
+                    <h1>Kenji Arakaki</h1>
+                    </Link>
+                    <Navbar/> 
+                </div>
             </div>
         </>
     )

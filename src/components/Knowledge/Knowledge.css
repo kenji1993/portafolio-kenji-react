@@ -1,3 +1,28 @@
 .knowledgeContainer {
     margin-top: 5rem;
+    text-decoration: underline;
+}
+.knowledgeContainer h2 {
+    font-size: 3rem;
+    margin-bottom: 5rem;
+}
+.technologiesList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin-bottom: 20rem;
+    flex-wrap: wrap;
+}
+.technologyImage {
+    width: 8rem;
+    cursor: pointer;
+    -webkit-transition: all 700ms ease;
+    -o-transition: all 700ms ease;
+    -moz-transition: all 700ms ease;
+    -ms-transition: all 700ms ease;
+    transition: all 700ms ease;
+}
+.technologyImage:hover {
+    transform: scale(1.25);
 }

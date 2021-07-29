@@ -5,9 +5,12 @@
 }
 .headerContainer {
     background-color: #64ffda;
-    display: flex;
-    justify-content: space-around;
     padding: 2rem 0 2rem 0;
+}
+.headerContent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 .author {
     color: #000000;

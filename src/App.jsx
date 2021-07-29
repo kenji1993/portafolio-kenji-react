@@ -21,8 +21,8 @@ const App = () => {
                   <Route path="/web-projects" component={WebProjects}/>
                 </Switch>
               </div>
-              <Footer/>
             </div>
+            <Footer/>
           </Router>
         </>
     )
