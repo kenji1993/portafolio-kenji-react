@@ -2,7 +2,15 @@
     background: #455a64;
     bottom: 0;
     color: #ffffff;
-    padding: 2rem 0 2rem 0;
     position: fixed;    
     width: 100vw;
+}
+.footerContainer .container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footerContact img {
+    width: 10rem;
+    margin-left: 2rem;
 }
